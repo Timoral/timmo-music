@@ -1,0 +1,9 @@
+/home/aidan/AndroidStudioProjects/TimmoMusic/app/build/intermediates/classes/debug
+/home/aidan/AndroidStudioProjects/TimmoMusic/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-a56cb7e52c8b8cd5f619fc12936bf7b1c672ff76.jar
+/home/aidan/AndroidStudioProjects/TimmoMusic/app/build/intermediates/pre-dexed/debug/classes-6d9c38fc65db7621c885f3e91d49c951cf8c3daa.jar
+/home/aidan/AndroidStudioProjects/TimmoMusic/app/build/intermediates/pre-dexed/debug/classes-b13b9c8bb74acd0c87f487db90e18876b493709f.jar
+/home/aidan/AndroidStudioProjects/TimmoMusic/app/build/intermediates/pre-dexed/debug/classes-0bc74972a1516b3f0b589b6e5b4518dc0c729f7a.jar
+/home/aidan/AndroidStudioProjects/TimmoMusic/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-28f486063fcb6af27ef10f01a508c020e19c148b.jar
+/home/aidan/AndroidStudioProjects/TimmoMusic/app/build/intermediates/pre-dexed/debug/classes-b2d37c473a049104c848cbffedf240dda068dee3.jar
+/home/aidan/AndroidStudioProjects/TimmoMusic/app/build/intermediates/pre-dexed/debug/classes-44c84d2199838a0c98aa76161cd1f617f7363f9d.jar
+/home/aidan/AndroidStudioProjects/TimmoMusic/app/build/intermediates/pre-dexed/debug/classes-9746ef9225c36fc7dc3047971aa0d5f59ae2c28e.jar

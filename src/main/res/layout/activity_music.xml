@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MusicActivity">
+
+    <ViewSwitcher
+        android:id="@+id/viewSwitcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inAnimation="@anim/anim_in"
+        android:outAnimation="@anim/anim_out">
+
+        <include
+            layout="@layout/view_player"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include
+            layout="@layout/view_library"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ViewSwitcher>
+</LinearLayout>
+

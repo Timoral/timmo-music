@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/background_light"
+    android:elevation="2dp"
+    android:onClick="songPicked"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/song_art"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/art"
+            android:src="@drawable/art"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:id="@+id/song_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/song_art"
+            android:layout_toRightOf="@+id/song_art"
+            android:text="@string/title"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/song_artist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/song_title"
+            android:layout_toEndOf="@+id/song_art"
+            android:layout_toRightOf="@+id/song_art"
+            android:text="@string/artist"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/song_album"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/song_artist"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@+id/song_art"
+            android:layout_toRightOf="@+id/song_art"
+            android:text="@string/album"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/home/aidan/AndroidStudioProjects/TimmoMusic/app/src/main/res/layout/song.xml -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Timmo Music</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+    <string name="library">Library</string>
+    <string name="equaliser">Equaliser</string>
+    <string name="title">Title</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="genre">Genre</string>
+    <string name="art">Album Art</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="repeat">Repeat</string>
+    <string name="zerotime">00:00</string>
+
+    <color name="text">#292929</color>
+    <color name="primary">#292929</color>
+    <color name="primary_dark">#222222</color>
+    <color name="nav_bar">#222222</color>
+    <color name="accent">#292929</color>
+    <color name="album">#be292929</color>
+    <color name="album_light">#3f292929</color>
+    <color name="background">#DDDDDD</color>
+    <color name="background_light">#EEEEEE</color>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/nav_bar</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily" tools:targetApi="16">sans-serif-light</item>
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+        <item name="android:gridViewStyle">@style/GridViewStyle</item>
+    </style>
+
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/custom_tab_indicator</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textColor">#FF555555</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:divider">@drawable/custom_tab_indicator_divider</item>
+        <item name="android:dividerPadding" tools:targetApi="11">10dp</item>
+        <item name="android:showDividers" tools:targetApi="11">middle</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="GridViewStyle" parent="android:Widget.GridView">
+        <item name="android:columnWidth">90dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:horizontalSpacing">20dp</item>
+        <item name="android:numColumns">2</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:verticalSpacing">10dp</item>
+    </style>
+
+</resources>

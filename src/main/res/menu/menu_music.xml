@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MusicActivity">
+    <item
+        android:id="@+id/action_library"
+        android:icon="@drawable/ic_action_av_my_library_music"
+        android:orderInCategory="100"
+        android:title="@string/library"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_equaliser"
+        android:icon="@drawable/ic_action_av_equalizer"
+        android:orderInCategory="200"
+        android:title="@string/equaliser"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_action_action_settings"
+        android:orderInCategory="300"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_exit"
+        android:icon="@drawable/ic_action_action_exit_to_app"
+        android:orderInCategory="400"
+        android:title="@string/action_exit"
+        app:showAsAction="ifRoom" />
+</menu>
